@@ -1,0 +1,928 @@
+
+.school-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .school-page .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 3718px;
+    position: relative;
+  }
+  
+  .school-page .part-footer {
+    position: absolute;
+    width: 1440px;
+    height: 249px;
+    top: 3469px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .school-page .overlap-group {
+    position: relative;
+    width: 1442px;
+    height: 251px;
+    top: -1px;
+    left: -1px;
+    background-color: #071629;
+  }
+  
+  .school-page .logo {
+    position:absolute;
+    width: 169px;
+    height: 30px;
+    top: 96px;
+    left: 166px;
+  }
+  
+  .school-page .text-wrapper {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    font-family: "Coiny-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .school-page .smile {
+    position: absolute;
+    width: 36px;
+    height: 29px;
+    top: 0;
+    left: 1px;
+  }
+  
+  .school-page .text-wrapper-2 {
+    position: absolute;
+    top: 195px;
+    left: 673px;
+    opacity: 0.35;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .social-icons {
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    top: 91px;
+    left: 1071px;
+  }
+  
+  .school-page .instagram {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 100px;
+  }
+  
+  .school-page .twitter {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 50px;
+  }
+  
+  .school-page .facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .part-FAQ {
+    position: absolute;
+    width: 920px;
+    height: 707px;
+    top: 2678px;
+    left: 249px;
+  }
+  
+  .school-page .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 407px;
+    font-family: "Source Sans Pro-Light", Helvetica;
+    font-weight: 300;
+    color: #071629;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .q {
+    position: absolute;
+    width: 350px;
+    height: 242px;
+    top: 149px;
+    left: 0;
+  }
+  
+  .school-page .lorem-ipsum-dolor-si {
+    position: absolute;
+    width: 350px;
+    top: 49px;
+    left: 0;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #07162980;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .school-page .text-wrapper-4 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #071629;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .q-2 {
+    position: absolute;
+    width: 350px;
+    height: 242px;
+    top: 465px;
+    left: 0;
+  }
+  
+  .school-page .q-3 {
+    position: absolute;
+    width: 350px;
+    height: 242px;
+    top: 149px;
+    left: 570px;
+  }
+  
+  .school-page .q-4 {
+    position: absolute;
+    width: 350px;
+    height: 242px;
+    top: 465px;
+    left: 570px;
+  }
+  
+  .school-page .part-free {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    top: 2109px;
+    left: 0;
+    background-size: 100% 100%;
+    background-color:#071629;
+  }
+  
+  .school-page .free-membership {
+    position: absolute;
+    top: 69px;
+    left: 617px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .span {
+    font-weight: 700;
+    color: #c170ff;
+  }
+  
+  .school-page .text-wrapper-5 {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .school-page .text-wrapper-6 {
+    font-family: "Source Sans Pro-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  
+  .school-page .button {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 162px;
+    height: 44px;
+    top: 406px;
+    left: 639px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px #00000080;
+  }
+  
+  .school-page .div-wrapper {
+    position: relative;
+    width: 164px;
+    height: 46px;
+    top: -1px;
+    left: -1px;
+    background-color: #c170ff;
+    border-radius: 22px;
+  }
+  
+  .school-page .text-wrapper-7 {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    font-family: "Source Sans Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .dot {
+    position: absolute;
+    width: 257px;
+    height: 153px;
+    top: 168px;
+    left: 164px;
+  }
+  
+  .school-page .p {
+    width: 212px;
+    top: 100px;
+    left: 22px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .school-page .text-wrapper-8 {
+    position: absolute;
+    width: 256px;
+    top: 61px;
+    left: 0;
+    font-family: "Source Sans Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .school-page .img {
+    position: absolute;
+    width: 44px;
+    height: 35px;
+    top: 0;
+    left: 107px;
+  }
+  
+  .school-page .dot-2 {
+    position: absolute;
+    width: 257px;
+    height: 153px;
+    top: 168px;
+    left: 448px;
+  }
+  
+  .school-page .lorem-ipsum-dolor-si-2 {
+    width: 221px;
+    top: 100px;
+    left: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .school-page .dot-3 {
+    position: absolute;
+    width: 257px;
+    height: 153px;
+    top: 168px;
+    left: 733px;
+  }
+  
+  .school-page .lorem-ipsum-dolor-si-3 {
+    width: 215px;
+    top: 100px;
+    left: 21px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .school-page .dot-4 {
+    position: absolute;
+    width: 257px;
+    height: 153px;
+    top: 168px;
+    left: 1019px;
+  }
+  
+  .school-page .part-tutorials {
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    top: 1572px;
+    left: 106px;
+  }
+  
+  .school-page .most-popular-tutoria {
+    position: absolute;
+    top: -1px;
+    left: 482px;
+    font-family: "Source Sans Pro-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-9 {
+    font-weight: 300;
+    color: #071629;
+  }
+  
+  .school-page .text-wrapper-10 {
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #c170ff;
+  }
+  
+  .school-page .text-wrapper-11 {
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .school-page .tuto {
+    position: absolute;
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 58px;
+    overflow: hidden;
+  }
+  
+  .school-page .overlap-group-2 {
+    position: relative;
+    width: 257px;
+    height: 337px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px #0716292d;
+  }
+  
+  .school-page .avatar {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 262px;
+    left: 14px;
+  }
+  
+  .school-page .text-wrapper-12 {
+    position: absolute;
+    top: 263px;
+    left: 57px;
+    font-family: "Source Sans Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #c170ff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .school-page .text-wrapper-13 {
+    position: absolute;
+    top: 297px;
+    left: 200px;
+    font-family: "Source Sans Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #c170ff;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .school-page .rating {
+    position: absolute;
+    width: 107px;
+    height: 15px;
+    top: 306px;
+    left: 14px;
+  }
+  
+  .school-page .lorem-ipsum-dolor-si-4 {
+    width: 242px;
+    top: 200px;
+    left: 14px;
+    color: #07162980;
+    line-height: 24px;
+    position: absolute;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .school-page .text-wrapper-14 {
+    position: absolute;
+    top: 172px;
+    left: 14px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #071629;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .overlap {
+    position: absolute;
+    width: 255px;
+    height: 154px;
+    top: 1px;
+    left: 1px;
+    background-image: url(images/smile1.png);
+    background-size: 100% 100%;
+  }
+  
+  .school-page .play {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 45px;
+    left: 96px;
+  }
+  
+  .school-page .overlap-wrapper {
+    position: absolute;
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 344px;
+    overflow: hidden;
+  }
+  
+  .school-page .play-wrapper {
+    position: absolute;
+    width: 255px;
+    height: 154px;
+    top: 1px;
+    left: 1px;
+    background-image: url(images/smile\ 2.png);
+    background-size: 100% 100%;
+  }
+  
+  .school-page .overlap-group-wrapper {
+    position: absolute;
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 629px;
+    overflow: hidden;
+  }
+  
+  .school-page .img-wrapper {
+    position: absolute;
+    width: 255px;
+    height: 154px;
+    top: 1px;
+    left: 1px;
+    background-image: url(images/smile3.png);
+    background-size: 100% 100%;
+  }
+  
+  .school-page .tuto-2 {
+    position: absolute;
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 914px;
+    overflow: hidden;
+  }
+  
+  .school-page .overlap-group-3 {
+    position: absolute;
+    width: 255px;
+    height: 154px;
+    top: 1px;
+    left: 1px;
+    background-image: url(images/smile\ 4.png);
+    background-size: 100% 100%;
+  }
+  
+  .school-page .part-testimonials {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    top: 1093px;
+    left: -1px;
+   
+    
+  }
+  
+  .school-page .testimonial-wrapper {
+    position: relative;
+    width: 1439px;
+    height: 392px;
+    left: 1px;
+    background-size: 100% 100%;
+    background-color:#C271FF;
+  }
+  
+  .school-page .testimonial {
+   
+    position: relative;
+    width: 943px;
+    height: 160px;
+    top: 108px;
+    left: 259px;
+  }
+  
+  .school-page .avatar-2 {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .text {
+    position: absolute;
+    width: 730px;
+    height: 158px;
+    top: 2px;
+    left: 213px;
+  }
+  
+  .school-page .text-wrapper-15 {
+    position: absolute;
+    top: 123px;
+    left: 0;
+    font-family: "Source Sans Pro-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .school-page .text-wrapper-16 {
+    position: absolute;
+    top: 89px;
+    left: 0;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #fdfdfd;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .school-page .those-tutorials-ar {
+    position: absolute;
+    width: 730px;
+    top: -1px;
+    left: 0;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .school-page .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .main-part {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    top: 0;
+    left: 0;
+    background-image: url(images/Object.png);
+    background-size: 100% 100%;
+  }
+  
+  .school-page .overlap-3 {
+    position: absolute;
+    width: 684px;
+    height: 161px;
+    top: 219px;
+    left: 377px;
+  }
+  
+  .school-page .text-wrapper-17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 600;
+    color: #fcfcfc;
+    font-size: 106px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-18 {
+    position: absolute;
+    top: 141px;
+    left: 216px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-19 {
+    position: absolute;
+    top: 141px;
+    left: 327px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-20 {
+    position: absolute;
+    top: 141px;
+    left: 420px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: 170px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px #00000080;
+  }
+  
+  .school-page .text-wrapper-21 {
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    font-family: "Source Sans Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .learn-from-the-pros {
+    position: absolute;
+    top: 630px;
+    left: 604px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .pros {
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    top: 758px;
+    left: 217px;
+  }
+  
+  .school-page .pro {
+    position: absolute;
+    width: 150px;
+    height: 237px;
+    top: 0;
+    left: 859px;
+  }
+  
+  .school-page .text-wrapper-22 {
+    position: absolute;
+    width: 150px;
+    top: 159px;
+    left: 0;
+    font-family: "Source Sans Pro-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .school-page .text-wrapper-23 {
+    position: absolute;
+    width: 150px;
+    top: 188px;
+    left: 0;
+    font-family: "Source Sans Pro-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .school-page .avatar-3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .pro-2 {
+    position: absolute;
+    width: 150px;
+    height: 237px;
+    top: 0;
+    left: 570px;
+  }
+  
+  .school-page .pro-3 {
+    position: absolute;
+    width: 150px;
+    height: 237px;
+    top: 0;
+    left: 289px;
+  }
+  
+  .school-page .pro-4 {
+    position: absolute;
+    width: 150px;
+    height: 237px;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .header {
+    position: absolute;
+    width: 1103px;
+    height: 29px;
+    top: 35px;
+    left: 172px;
+    background-color: transparent;
+  }
+  
+  .school-page .logo-2 {
+    position: absolute;
+    width: 167px;
+    height: 20px;
+    top: 0;
+    left: 0;
+  }
+  
+  .school-page .smile-school {
+    position: absolute;
+    width: 112px;
+    height: 13px;
+    top: 7px;
+    left: 55px;
+  }
+  
+  .school-page .path {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    top: 0;
+    left: 4px;
+  }
+  
+  .school-page .path-2 {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    top: 0;
+    left: 23px;
+  }
+  
+  .school-page .path-3 {
+    position: absolute;
+    width: 35px;
+    height: 11px;
+    top: 16px;
+    left: 0;
+  }
+  
+  .school-page .menu {
+    position: absolute;
+    width: 234px;
+    height: 15px;
+    top: 2px;
+    left: 869px;
+  }
+  
+  .school-page .text-wrapper-24 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-25 {
+    position: absolute;
+    top: -1px;
+    left: 102px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .school-page .text-wrapper-26 {
+    position: absolute;
+    top: -1px;
+    left: 200px;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
