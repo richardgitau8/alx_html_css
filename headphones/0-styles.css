@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 1000; 
+}
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a:active {
+    color: #FF6565;
+}
+
+/* Hide menu icon and checkbox by default */
+.menu-icon,
+#menu-toggle {
+    display: none;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        margin-left: 20px; 
+        transform: none;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: rgba(55, 55, 55, 0.9);
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 0;
+        border-top: 1px solid #444;
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+    }
+
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+}
+
+
+
+.hero {
+    background-image: url(images/main_part.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.discover {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 300px;
+}
+
+.experience {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #f58b8b;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    margin-bottom:80px;
+}
+
+.button:hover {
+    background-color: #FF6565;
+    color: white;
+}
+
+.details {
+    font-size: 1em;
+    color:white;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-align:center;
+    padding: 0 20px;
+}
